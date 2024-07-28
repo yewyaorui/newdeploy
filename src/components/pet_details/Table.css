@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* horizontal scrolling */
+    gap: 20px;
+    padding: 20px;
+    width:auto;
+    
+}
+
+.card {
+    flex: 0 1 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #F2E5E5;
+}
+
+.card-content p {
+    margin: 5px 0;
+}
+
+.card-actions {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2B3A55;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    /* padding: 0 2em; */
+}
+
+.title {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 4em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

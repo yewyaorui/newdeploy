@@ -1,0 +1,46 @@
+.newsmenu li {
+    display: inline-block;
+    margin: 1em;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background: #eee;
+    border-radius: 3em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsmenu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: none;
+}
+
+.newsmenu .inactive {
+    background: #eee;
+}
+
+.newsmenu .active {
+    background: #ccc;
+}
+
+.newsmenu .active:hover {
+    background: #CE7777;
+}
+
+.newsmenu .inactive:hover {
+    background: #E8C4C4;
+}
+
+.newsmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    z-index: 100;
+    position: sticky;
+    top: 60px;
+    background-color: #F2E5E5;
+    /* Ensure no background is applied */
+
+}
